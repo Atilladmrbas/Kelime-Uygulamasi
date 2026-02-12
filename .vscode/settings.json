@@ -1,0 +1,320 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "vocab_app\\extra_words\\",
+            "color": "foldercolorizer.color_0066ff"
+        },
+        {
+            "folderPath": "vocab_app\\extra_words\\flash_cards\\",
+            "color": "foldercolorizer.color_33ccff"
+        },
+        {
+            "folderPath": "vocab_app\\extra_words\\__pycache__\\",
+            "color": "foldercolorizer.color_33cccc"
+        },
+        {
+            "folderPath": "vocab_app\\extra_words\\flash_cards\\views\\",
+            "color": "foldercolorizer.color_00cc00"
+        },
+        {
+            "folderPath": "vocab_app\\flash_cards\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\flash_cards\\views\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": "vocab_app\\views\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": "vocab_app\\Uİ\\extra_words\\",
+            "color": "foldercolorizer.color_0066ff"
+        },
+        {
+            "folderPath": "vocab_app\\Uİ\\main_panel\\",
+            "color": "foldercolorizer.color_00cc99"
+        },
+        {
+            "folderPath": "vocab_app\\Uİ\\calendar\\",
+            "color": "foldercolorizer.color_00ccff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\main_panel\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\calendar\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\core\\",
+            "color": "foldercolorizer.color_66cccc"
+        },
+        {
+            "folderPath": "vocab_app\\test\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\window\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\window\\pages\\",
+            "color": "foldercolorizer.color_336600"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\window\\bottom_windows\\pages\\",
+            "color": "foldercolorizer.color_33cccc"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\window\\bottom_windows\\",
+            "color": "foldercolorizer.color_cccc33"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\bottom_windows\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\pages\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\buttons_panel\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\box_view\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\helpers\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\pages\\russian_page\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\pages\\english_page\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\extra_words\\pages\\english\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\project_root\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\word_detail_dialog.py\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\__pycache__\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\container\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\words_window.py\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\words_container.py\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_panel\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\__pycache__\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\buton_and_cards\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\button_and_cards\\bubble\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\states\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\states\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\geometry\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\content\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\virtual_cards\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\transfer\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\words_container\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\button_and_cards\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\__pycache__\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\geometry\\sidebar\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\components\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\__pycache__\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\design\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\state\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\box_widgets\\managers\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\__init__.py\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\utils\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\widgets\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\internal\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\external\\sidebar\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\external\\design\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\internal\\states\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\internal\\cards\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\external\\animation\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\internal\\integration\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\external\\events\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\detail_window\\external\\manager\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\utils\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\waiting_area\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\__pycache__\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\memory_boxes\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\copy_flash_card\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\drag_drop_manager\\",
+            "color": "foldercolorizer.color_ffcc00"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\button_and_cards\\__pycache__\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\button_and_cards\\flash_card_detail\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\words_panel\\button_and_cards\\bubble\\toolbar\\",
+            "color": "foldercolorizer.color_cc33ff"
+        },
+        {
+            "folderPath": "vocab_app\\ui\\boxes_panel\\copy_flash_card\\copy_bubble\\",
+            "color": "foldercolorizer.color_ffcc00"
+        }
+    ]
+}
