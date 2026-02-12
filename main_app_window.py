@@ -7,6 +7,7 @@ from ui.calendar_panel.calendar_window import CalendarWindow
 from core.database import Database
 from ui.words_panel.detail_window.box_detail_controller import get_controller
 from three_buttons import ThreeButtons
+from auto_updater import Updater  # 📌 Bunu en üste ekle!
 
 class MainAppWindow(QTabWidget):
     def __init__(self):
@@ -161,6 +162,24 @@ class MainAppWindow(QTabWidget):
             pass
         
         QTimer.singleShot(200, self._refresh_overlays_for_tab)
+
+    def check_updates(self):
+        """Uygulama açılırken güncelleme kontrolü yap"""
+        updater = Updater()
+        sonuc = updater.check_for_updates(self)
+        
+        if sonuc.get('update_available'):
+            msg = QMessageBox()
+            msg.setWindowTitle("Güncelleme Mevcut")
+            msg.setText(f"📦 Yeni sürüm: {sonuc['latest_version']}\n"
+                    f"📌 Mevcut sürüm: {sonuc['current_version']}\n\n"
+                    f"{sonuc.get('release_notes', '')}\n\n"
+                    f"Şimdi güncellemek ister misiniz?")
+            msg.setIcon(QMessageBox.Icon.Information)
+            msg.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+            
+            if msg.exec() == QMessageBox.StandardButton.Yes:
+                updater.install_update(sonuc['download_url'], self)
 
     def _refresh_overlays_for_tab(self):
         """Sekme değiştiğinde overlay'ları güncelle"""
