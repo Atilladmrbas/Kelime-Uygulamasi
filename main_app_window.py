@@ -1,5 +1,5 @@
 # main_app_window.py - DÜZELTİLMİŞ VERSİYON (flash_sync_manager TAMAMEN KALDIRILDI)
-from PyQt6.QtWidgets import QTabWidget, QApplication, QWidget, QVBoxLayout
+from PyQt6.QtWidgets import QTabWidget, QApplication, QWidget, QVBoxLayout, QMessageBox
 from PyQt6.QtCore import Qt, QTimer
 from ui.boxes_panel.boxes_window import BoxesWindow
 from ui.words_panel.words_window import WordsWindow
@@ -165,21 +165,55 @@ class MainAppWindow(QTabWidget):
 
     def check_updates(self):
         """Uygulama açılırken güncelleme kontrolü yap"""
-        updater = Updater()
-        sonuc = updater.check_for_updates(self)
-        
-        if sonuc.get('update_available'):
-            msg = QMessageBox()
-            msg.setWindowTitle("Güncelleme Mevcut")
-            msg.setText(f"📦 Yeni sürüm: {sonuc['latest_version']}\n"
-                    f"📌 Mevcut sürüm: {sonuc['current_version']}\n\n"
-                    f"{sonuc.get('release_notes', '')}\n\n"
-                    f"Şimdi güncellemek ister misiniz?")
-            msg.setIcon(QMessageBox.Icon.Information)
-            msg.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        try:
+            updater = Updater()
+            sonuc = updater.check_for_updates(self)
             
-            if msg.exec() == QMessageBox.StandardButton.Yes:
-                updater.install_update(sonuc['download_url'], self)
+            if sonuc.get('update_available'):
+                msg = QMessageBox()
+                msg.setWindowTitle("📦 Güncelleme Mevcut")
+                
+                # OKUNUR STİL - SİYAH BEYAZ!
+                msg.setStyleSheet("""
+                    QMessageBox {
+                        background-color: white;
+                        color: black;
+                        font-size: 12pt;
+                    }
+                    QMessageBox QLabel {
+                        color: black;
+                        background-color: white;
+                    }
+                    QPushButton {
+                        background-color: #3498db;
+                        color: white;
+                        border: none;
+                        padding: 8px 16px;
+                        font-size: 11pt;
+                        border-radius: 4px;
+                        min-width: 80px;
+                    }
+                    QPushButton:hover {
+                        background-color: #2980b9;
+                    }
+                """)
+                
+                msg.setText(
+                    f"📦 **Yeni sürüm:** {sonuc['latest_version']}\n"
+                    f"📌 **Mevcut sürüm:** {sonuc['current_version']}\n\n"
+                    f"{sonuc.get('release_notes', '')}\n\n"
+                    f"Şimdi güncellemek ister misiniz?"
+                )
+                msg.setIcon(QMessageBox.Icon.Information)
+                msg.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+                msg.button(QMessageBox.StandardButton.Yes).setText("✅ Evet")
+                msg.button(QMessageBox.StandardButton.No).setText("❌ Hayır")
+                
+                if msg.exec() == QMessageBox.StandardButton.Yes:
+                    updater.install_update(sonuc['download_url'], self)
+                    
+        except Exception as hata:
+            print(f"Güncelleme hatası: {hata}")
 
     def _refresh_overlays_for_tab(self):
         """Sekme değiştiğinde overlay'ları güncelle"""
