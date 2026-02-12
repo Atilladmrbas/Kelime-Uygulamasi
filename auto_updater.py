@@ -64,6 +64,10 @@ class UpdateThread(QThread):
                 
         except Exception as hata:
             self.finished.emit(False, f"❌ Hata: {str(hata)}")
+    
+    def __del__(self):
+        # Thread güvenli kapatma
+        self.wait()
 
 
 class Updater:
@@ -125,9 +129,13 @@ class Updater:
             if basarili:
                 QMessageBox.information(parent_widget, "Başarılı", 
                     "✅ Güncelleme tamamlandı!\nUygulama yeniden başlatılacak.")
+                # Thread'i temizle
+                self.update_thread.deleteLater()
+                # Uygulamayı yeniden başlat
                 os.execl(sys.executable, sys.executable, *sys.argv)
             else:
                 QMessageBox.warning(parent_widget, "Hata", mesaj)
+                self.update_thread.deleteLater()
         
         self.update_thread.finished.connect(on_finished)
         self.update_thread.start()
